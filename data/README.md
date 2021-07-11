@@ -7,11 +7,19 @@ Please download the examples of pre-processed data from [Data Download](https://
 The file organization is shown here:
 
 .
+
 ├── EPFL_list.txt
+
 ├── EPFL_Y
+
 ├── HCI1_list.txt
+
 ├── HCI1_Y
+
 ├── HCI2_list.txt
+
 ├── HCI2_Y
+
 ├── Stanford_list.txt
+
 └── Stanford_Y
