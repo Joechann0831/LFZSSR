@@ -5,7 +5,7 @@ You can tune the running parameters with parser and the training parameters at C
 """
 import argparse
 from tools.utils import *
-from classes.Class_error_guided_finetuning import *
+from trainers.Class_error_guided_finetuning import *
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--gpus", default="0", type=str,

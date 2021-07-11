@@ -6,7 +6,7 @@ You can tune the running parameters with parser and the training parameters at C
 import argparse
 import scipy.io as sio
 from tools.utils import *
-from classes.Class_LFZSSR import *
+from trainers.Class_LFZSSR import *
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--gpus", default="0", type=str, help="gpu id (default: 0)")
