@@ -55,7 +55,7 @@ You can refer to the script [Main_error_guided_finetuning.py](https://github.com
 
 ### 4. Hyper-parameters
 
-We set the hyper-parameters during training and testing after tuning on our testing data, if you want to use our algorithm on your own data, please refer to xxx for detailed descriptions of each hyper-parameter.
+We set the hyper-parameters during training and testing after tuning on our testing data, if you want to use our algorithm on your own data, please refer to [Hyper-parameters](https://github.com/Joechann0831/LFZSSR/blob/master/hyper-parameters/hyperparameters.md) for detailed descriptions of each hyper-parameter.
 
 ## Citation
 
@@ -75,6 +75,8 @@ If you find this work helpful, please consider citing our paper.
 ## Related Projects
 
 [Light field depth estimation, LFDEN](https://github.com/JiayongO-O/LFDEN)
+
+[ZSSR](https://github.com/assafshocher/ZSSR)
 
 ## Contact
 
