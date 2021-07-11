@@ -11,7 +11,7 @@ class Config:
     align_patch_size = 64
     weight_decay = 0.0
     weight_decay_aggre = 0.0
-    batch_size = 1
+    aggre_batch_size = 1
     align_batch_size = 1
     ft_batch_size = 1
     random_seed = None
@@ -23,7 +23,6 @@ class Config:
     ######## early stop and test
     max_iters = 20000
     test_step = 50
-    min_check = 5
     min_learning_rate = 1e-6
 
     ######## record

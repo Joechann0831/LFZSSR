@@ -36,10 +36,10 @@ Zhen Cheng, Zhiwei Xiong, Chang Chen, Dong Liu, and Zheng-Jun Zha, [Light Field 
 Take scene *Spear_Fence_2* in dataset *EPFL* with scaling factor 2 as an example.
 
 ```shell
-python Main_LFZSSR.py --dataset="EPFL" --start=2 --end=3 --scale=2 --gpu-num=1 --gpus="0" --record
+python Main_LFZSSR.py --dataset="EPFL" --start=2 --end=3 --scale=2 --record
 ```
 
-You can refer to the script [Main_LFZSSR.py]() to know the meaning of each parameter. 
+You can refer to the script [Main_LFZSSR.py](https://github.com/Joechann0831/LFZSSR/blob/master/Main_LFZSSR.py) to know the meaning of each parameter. 
 
 ### 3. Error-guided finetuning
 
@@ -48,16 +48,14 @@ Our error-guided finetuning needs a pre-trained model for initialization and err
 Take scene *Spear_Fence_2* in dataset *EPFL* with scaling factor 2 and source dataset *HFUT* as an example.
 
 ```shell
-python Main_error_guided_finetuning.py --dataset="EPFL" --start=2 --end=3 --scale=2 --source="HFUT" --gpu-num=1 --gpus="0" --record
+python Main_error_guided_finetuning.py --dataset="EPFL" --start=2 --end=3 --scale=2 --source="HFUT" --record
 ```
 
-You can refer to the script [Main_error_guided_finetuning.py]() to know the meaning of each parameter.
+You can refer to the script [Main_error_guided_finetuning.py](https://github.com/Joechann0831/LFZSSR/blob/master/Main_error_guided_finetuning.py) to know the meaning of each parameter.
 
 ### 4. Hyper-parameters
 
 We set the hyper-parameters during training and testing after tuning on our testing data, if you want to use our algorithm on your own data, please refer to xxx for detailed descriptions of each hyper-parameter.
-
-
 
 ## Citation
 
@@ -74,3 +72,10 @@ If you find this work helpful, please consider citing our paper.
 }
 ```
 
+## Related Projects
+
+[Light field depth estimation, LFDEN](https://github.com/JiayongO-O/LFDEN)
+
+## Contact
+
+If you have any problems about the released code, please do not hesitate to contact me with email (mywander@mail.ustc.edu.cn).

@@ -62,7 +62,7 @@ configs = Config()
 # Fixed parameters
 configs.gpu_id = opt.gpus
 configs.align_patch_size = 32
-configs.batch_size = batch_size
+configs.aggre_batch_size = batch_size
 configs.align_batch_size = batch_size
 configs.ft_batch_size = batch_size
 configs.weight_decay_aggre = 0.0

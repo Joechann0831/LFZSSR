@@ -23,7 +23,6 @@ class Config:
     ######## early stop and test
     max_iters = 20000
     test_step = 50
-    min_check = 5
     min_learning_rate = 1e-6
 
     ######## record
