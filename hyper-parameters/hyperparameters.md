@@ -2,6 +2,8 @@
 
 This file gives descriptions and directions about the hyper-parameters defined in [configs/Config_for_LFZSSR.py](https://github.com/Joechann0831/LFZSSR/blob/master/configs/Config_for_LFZSSR.py) and [configs/Config_error_guided_finetuning.py](https://github.com/Joechann0831/LFZSSR/blob/master/configs/Config_error_guided_finetuning.py).
 
+Note: You'd better to keep these hyper-parameters because they are tuned by us due to their good performance on our evaluation datasets in average. However, if you use your own light field datasets, please check the hyper-parameters and tune some of them to fit your data.
+
 ### Common hyper-parameters
 
 - **scale**: the scaling factor.
